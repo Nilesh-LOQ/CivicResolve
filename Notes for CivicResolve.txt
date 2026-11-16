@@ -1,0 +1,3 @@
+6. Validate your HTML
+You can use the official W3C Markup Validation Service to find HTML errors and warnings.
+https://validator.w3.org/

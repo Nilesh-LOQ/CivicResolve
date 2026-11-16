@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> CIVIC RESOLVE</title>
+</head>
+<body>
+    <h1>COMPLAINT NOW!</h1>
+    <form action="/report" method="post" enctype="multipart/form-data">
+    <label for ="title">Complaint title</label>
+    <input type="text" 
+           id="title"
+           name="complaint_title"
+           placeholder="title"
+           maxlength="100"
+           required><br><br>
+    <label for="description">Description</label>
+    <textarea
+     rows="5"
+     cols="40"
+     maxlength="1000"
+     placeholder="enter the description for the complaint"
+     id="description"
+     name="complaint_description"
+     required >
+
+    </textarea><br><br>
+    <label for="location">Location</label>
+    <input
+      type="text"
+      id="location"
+      name="location"
+      placeholder="enter location"
+      required><br><br>
+    <label for="photo">Upload Picture</label>
+    <input
+     type="file"
+     id="photo"
+     name="photos"
+     accept="image/png,image/jpeg"
+     multiple><br><br>
+    <button type="submit">SUBMIT</button>
+     </form>
+
+</body>
+
+</html>
