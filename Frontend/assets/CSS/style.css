@@ -34,7 +34,8 @@ nav a:hover{
 .hero{
     text-align: center;
     padding: 100px 20px;
-    background-color: olivedrab;
+    /* background-color: olivedrab; */
+    background-color: #0B1F33;
     
     color: white;
 }
@@ -59,4 +60,93 @@ nav a:hover{
 .hero-button:hover{
     background-color: white;
     color: #123456;
+}
+.how-it-works{
+    text-align: center;
+    padding: 60px 40px;
+
+}
+.how-it-works h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.step-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.step-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+
+}
+.recent-complaints{
+    padding: 60px 40px;
+    text-align: center;
+}
+.recent-complaints h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.complaint-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.complaint-card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    text-align: center; 
+    transition: transform 0.3s ease;  
+}
+.complaint-card:hover{
+    transform: scale(1.03);
+}
+.status{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.in-progress{
+    background-color: #FFF3CD;
+    color: #856404;
+}
+.resolved{
+    background-color: #D4EDDA;
+    color: #155724;
+}
+.reported{
+    background-color: #D1ECF1;
+    color: #0C5460;
+}
+.footer{
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.footer-links{
+    display: flex;
+    justify-content: center ;
+    gap: 25px;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    transition: gold 0.3s ease;
+}
+.footer-links a:hover{
+    color: #FFD700;
+}
+.copyright{
+    font-size: 13px;
+    color: #B0BEC5;
+    margin-top: 20px;
 }
