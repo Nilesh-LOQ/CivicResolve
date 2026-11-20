@@ -1,3 +1,31 @@
-6. Validate your HTML
+To Validate your HTML
 You can use the official W3C Markup Validation Service to find HTML errors and warnings.
 https://validator.w3.org/
+
+Static prototype one !
+┌──────────────────────────────────────────────┐
+│              CIVICRESOLVE                    │
+│       Home   About   Login   Register        │
+├──────────────────────────────────────────────┤
+│                                              │
+│       Making Our Cities Better               │
+│                                              │
+│  Report civic issues. Track progress.        │
+│  Help make your community better.            │
+│                                              │
+│           [ Report an Issue ]                │
+│                                              │
+├──────────────────────────────────────────────┤
+│               HOW IT WORKS                   │
+│                                              │
+│    Report       Track        Resolve         │
+│                                              │
+├──────────────────────────────────────────────┤
+│             RECENT COMPLAINTS                │
+│                                              │
+│    [Complaint 1]       [Complaint 2]          │
+│    [Complaint 3]       [Complaint 4]          │
+│                                              │
+├──────────────────────────────────────────────┤
+│                  FOOTER                      │
+└──────────────────────────────────────────────┘
