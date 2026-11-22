@@ -140,7 +140,7 @@ nav a:hover{
 .footer-links a{
     color: white;
     text-decoration: none;
-    transition: gold 0.3s ease;
+    transition: color 0.3s ease;
 }
 .footer-links a:hover{
     color: #FFD700;
@@ -149,4 +149,29 @@ nav a:hover{
     font-size: 13px;
     color: #B0BEC5;
     margin-top: 20px;
+}
+@media(max-width:600px){
+    .complaint-container{
+        grid-template-columns: 1fr;
+    }
+    header{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .step-container{
+        grid-template-columns: 1fr;
+    }
+    .hero{
+        padding: 70px 20px;
+
+    }
+    .hero h2{
+        font-size: 30px;
+    }
 }
