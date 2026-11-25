@@ -19,7 +19,7 @@ console.log(typeof assignedOfficer);
 console.log(typeof complaintStatus);
 
 const heading = document.getElementById("heading");
-heading.textContent="Welcome to CivicResolve !";
-heading.style.color="blue";
-heading.style.fontSize="40px";
-heading.style.backgroundColor="lightgray";
+// heading.textContent="Welcome to CivicResolve !";
+// heading.style.color="blue";
+// heading.style.fontSize="40px";
+// heading.style.backgroundColor="lightgray";
