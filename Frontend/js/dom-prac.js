@@ -43,4 +43,9 @@ complaints.forEach((complaint)=>{
     complaintStatus.textContent=complaint.status;
     card.append(title,complaintStatus);
     Container.append(card);
+    const updateBtn=document.getElementById("updateButton");
+    
+    updateBtn.addEventListener("click",function(){
+        complaintStatus.textContent="status resolved";
+    })
 })
