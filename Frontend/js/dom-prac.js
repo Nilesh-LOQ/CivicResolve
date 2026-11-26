@@ -49,3 +49,8 @@ complaints.forEach((complaint)=>{
         complaintStatus.textContent="status resolved";
     })
 })
+const nameInput =document.getElementById("citizen");
+const msg =document.getElementById("message");
+nameInput.addEventListener("input",()=>{
+    msg.textContent="hello," + nameInput.value;
+})
