@@ -54,3 +54,9 @@ const msg =document.getElementById("message");
 nameInput.addEventListener("input",()=>{
     msg.textContent="hello," + nameInput.value;
 })
+const action=document.getElementById("actions");    
+action.addEventListener("click",(event)=>{
+    if(event.target.classList.contains("deletButton")){
+        console.log("complaint deleted");
+    }
+});
