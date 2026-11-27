@@ -60,3 +60,17 @@ action.addEventListener("click",(event)=>{
         console.log("complaint deleted");
     }
 });
+const form = document.getElementById("registration");
+form.addEventListener("submit",(event)=>{
+    event.preventDefault();
+    const username = document.getElementById("username").value;
+    const email=document.getElementById("email").value;
+    const error =document.getElementById("error");
+    if(username == "" || email==""){
+        error.textContent="all fields are requred";
+    }else{
+        error.textContent="registratrion successfull";
+    }
+    
+
+})
