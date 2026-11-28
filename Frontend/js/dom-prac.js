@@ -74,3 +74,28 @@ form.addEventListener("submit",(event)=>{
     
 
 })
+
+const complaintss = [
+    { title: "Pothole", status: "RESOLVED", priority: "HIGH" },
+    { title: "Water Leakage", status: "PENDING", priority: "HIGH" },
+    { title: "Streetlight", status: "RESOLVED", priority: "LOW" },
+    { title: "Garbage", status: "RESOLVED", priority: "HIGH" }
+];
+
+const resolvedComplaints = complaintss.filter(complaint => complaint.status ==="RESOLVED").map(complaint=>complaint.title);
+console.log(resolvedComplaints);
+const resComp =complaintss.reduce((count,complaint)=>{
+    if (complaint.status === "RESOLVED"){
+        return count +1;
+    } 
+    return count
+},0);
+console.log(resComp);
+const priorityCheck=complaintss.some(complaint =>{
+    return complaint.priority ==="HIGH";
+});
+console.log(priorityCheck);
+const allResolved =complaintss.every(complaint =>{
+    return complaint.status ==="RESOLVED";
+});
+console.log(allResolved);
